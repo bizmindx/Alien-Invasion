@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"sort"
 	"alien-invasion/simulation/types"
-	"alien-invasion/util"
+	"alien-invasion/utils"
 )
 
 type (
@@ -78,7 +78,7 @@ func NewSimulation(r *rand.Rand, endIteration int, world World, aliens Aliens) S
 func (s *Simulation) Start() error {
 	for ; s.Iteration < s.EndIteration; s.Iteration++ {
 		// Shuffle cards every iteration
-		picks := util.ShuffleLen(len(s.Aliens), s.R)
+		picks := utils.ShuffleLen(len(s.Aliens), s.R)
 		// Aliens make their moves
 		noOpRound := true
 		for _, p := range picks {
@@ -172,7 +172,7 @@ func (s *Simulation) pickConnectedCity(alien *Alien) *City {
 		return nil
 	}
 	// Shuffle roads every pick
-	picks := util.ShuffleLen(len(alien.City().Links), s.R)
+	picks := utils.ShuffleLen(len(alien.City().Links), s.R)
 	// Any undestroyed connected city
 	for _, p := range picks {
 		key := alien.City().Links[p].Key
