@@ -1,0 +1,10 @@
+Bremen south=Delmenhorst east=Luneburg north=Bremerhaven west=Oldenburg
+Delmenhorst north=Bremen west=Meppen south=Nienburg
+Nienburg south=Hannover east=Celle north=Delmenhorst
+Hamburg south=Luneburg north=Norderstedt west=Bremerhaven east=Schwerin
+Bremerhaven north=Cuxhaven south=Bremen west=Wilhelmshaven east=Hamburg
+Oldenburg north=Wilhelmshaven south=Delmenhorst east=Bremen west=Emden
+Emden south=Meppen east=Oldenburg north=Wilhelmshaven
+Wilhelmshaven south=Oldenburg west=Emden east=Bremerhaven
+Cuxhaven south=Bremerhaven east=Norderstedt
+Hannover east=Wolfsburg west=Minden north=Nienburg south=Hamelin

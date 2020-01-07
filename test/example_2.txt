@@ -1,0 +1,9 @@
+City1 east=City2 south=City4
+City2 west=City1 east=City3 south=City5
+City3 west=City2 south=City6
+City4 north=City1 east=City5 south=City7
+City5 west=City4 north=City2 east=City6 south=City8
+City6 west=City5 north=City3 south=City9
+City7 north=City4 east=City8
+City8 west=City7 north=City5 east=City9
+City9 west=City8 north=City6
