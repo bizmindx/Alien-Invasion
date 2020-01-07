@@ -38,11 +38,11 @@ CLI options
       -aliens int
             number of aliens invading
       -intel string
-            a file used to name aliens (default "./test/aliens.txt")
+            a file used to name aliens (default "./files/aliens.txt")
       -movements int
             number of alien movements (default 10000)
       -world string
-            a file used as game world map input (default "./test/example.txt")
+            a file used as game world map input (default "./files/example.txt")
 
 running with specific alien movement command
 ``` 
