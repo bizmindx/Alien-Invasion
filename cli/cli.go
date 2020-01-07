@@ -19,9 +19,9 @@ const (
 	// DefaultNumberOfAliens used if number of Aliens is not otherwise specified
 	DefaultNumberOfAliens int = 0
 	// DefaultWorldFile used if World file is not otherwise specified
-	DefaultWorldFile = "./test/example.txt"
+	DefaultWorldFile = "./files/example.txt"
 	// DefaultIntelFile used if intel file is not otherwise specified
-	DefaultIntelFile = "./test/aliens.txt"
+	DefaultIntelFile = "./files/aliens.txt"
 )
 
 var (

@@ -7,15 +7,15 @@ import (
 )
 
 func TestWorldReadFromFile(t *testing.T) {
-	testWorldReadFromFile(t, "../test/example.txt", 5)
+	testWorldReadFromFile(t, "../files/example.txt", 5)
 }
 
 func TestWorldReadFromFile_2(t *testing.T) {
-	testWorldReadFromFile(t, "../test/example_2.txt", 6)
+	testWorldReadFromFile(t, "../files/example_2.txt", 6)
 }
 
 func TestWorldReadFromFile_3(t *testing.T) {
-	testWorldReadFromFile(t, "../test/example_3.txt", 8)
+	testWorldReadFromFile(t, "../files/example_3.txt", 8)
 }
 
 func testWorldReadFromFile(t *testing.T, file string, num int) {
